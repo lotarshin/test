@@ -13,5 +13,10 @@ def bye():
     return "bye,world"
 
 
+@app.route("again")
+def again():
+    return "see you again"
+
+
 if __name__ == '__main__':
     app.run()
